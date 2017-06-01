@@ -1,0 +1,114 @@
+@charset "UTF-8";
+body{
+	padding: 0;
+	margin: 0;
+	background:#583b4d;
+}
+#banner{
+	background:url(../img/banner.jpg) 50% fixed;
+	height: 700px;
+	background-size: cover;
+	}
+#menu{
+	background: url(../img/menu.png);
+	height: 40px;
+}
+#galeria{
+	background: #583b4d;
+	margin-left: 10%;
+}
+li{
+	display: inline;
+	float: left;
+	width: 120px;
+	margin-left: 13%;
+	margin-top: 10px;
+	color: #c6959b;
+}
+.nome{
+	background:url(../img/galeria.png) no-repeat;
+	background-size: 200px 50px;
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 10px;
+}
+#cursos{
+	background: #583b4d;
+	margin-top: 40px;
+}
+.nome2{
+	background:url(../img/cursos.png) no-repeat;
+	background-size: 200px 50px;
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 10px;
+}
+#sobre{
+	background: url(../img/foto1.jpg) 50% fixed;
+	background-size: cover;
+	height: 300px;
+	margin-top: 40px;
+	}
+.nome3{
+	background:url(../img/sobre.png) no-repeat;
+	background-size: 200px 50px;
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 10px;
+}
+
+p{
+	-webkit-column-count:3;
+	-webkit-column-gap:1.5em;
+	letter-spacing: 3px;
+	margin: 5%;
+	line-height: 1.6;
+	color: #fff;
+}
+.imagens{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+.nome4{
+	background:url(../img/contato.png) no-repeat;
+	background-size: 200px 50px;
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 10px;
+}
+#contato{
+	background: url(../img/foto2.jpg) 50% fixed;
+	background-size: cover;
+	height: 340px;
+	margin-top: 40px;
+	}
+#pagamento{
+	background: rgba(88,59,77,0.6);
+	width: 80%;
+	margin: 0 auto;
+}
+footer{
+	height: 70px;
+}
+.dombosco{
+	padding: 15px;
+}
+a:hover{
+	opacity: 1;
+}
+a {
+	opacity: 0.5;
+}
+.footer{
+	margin: 0 auto;
+	display: block;
+}
